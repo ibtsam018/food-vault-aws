@@ -7,6 +7,7 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls', namespace='blog')),
+    path('forum/', include('forum.urls', namespace='forum')),
     path('api/', include('blog_api.urls', namespace='blog_api')),
     path('api/account/', include(('account.urls',
          'account_api'), namespace='account_api')),

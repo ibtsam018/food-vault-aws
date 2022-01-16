@@ -14,5 +14,5 @@ class PostSerializer(FlexFieldsModelSerializer):
 
     class Meta:
         model = Post
-        fields = ('id', 'title', 'author_name', 'author_ranger', 'author_image', 'itemcategory', 'image', 'allergy', 'author', 'published', 'modified_on',
+        fields = ('id', 'title', 'author_name', 'author_ranger', 'phone','author_image','country_user', 'is_requested_item','itemcategory', 'image', 'allergy', 'author', 'published', 'modified_on',
                   'excerpt', 'content', 'status')

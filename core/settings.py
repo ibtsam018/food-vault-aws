@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-i$x=7lh-#%g@b5v@eyh1z&c%ziml5s708r#8xn+6i)jcvdjju7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.10.6', '192.168.0.118',
-                 '192.168.230.107', '192.168.43.245', '192.168.0.102', '192.168.0.112', 'food-vault-final-project.herokuapp.com']
+ALLOWED_HOSTS = ['192.168.10.6', '192.168.0.118','192.168.43.128',
+                 '192.168.230.107', '192.168.43.245', '192.168.10.5','192.168.0.102', '192.168.0.112','192.168.193.98' ,'192.168.0.109','192.168.0.110','192.168.95.98','food-vault-final-project.herokuapp.com']
 
 
 # Application definition
@@ -46,7 +46,9 @@ INSTALLED_APPS = [
     'djoser',
     'rest_framework.authtoken',
     'account',
+    'forum',
     'django_rest_passwordreset',
+    'phonenumber_field',
     'storages',
 ]
 AUTH_USER_MODEL = 'account.Account'
@@ -167,7 +169,8 @@ CORS_ALLOWED_ORIGINS = [
 
     "http://127.0.0.1:3000",
     "http://localhost:3000",
-    'http://192.168.204.101:5555'
+    'http://192.168.204.101:5555',
+    'http://192.168.0.118:80'
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
