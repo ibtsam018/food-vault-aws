@@ -25,13 +25,8 @@ SECRET_KEY = 'django-insecure-i$x=7lh-#%g@b5v@eyh1z&c%ziml5s708r#8xn+6i)jcvdjju7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['192.168.10.6', '192.168.0.118','192.168.43.128',
                  '192.168.230.107', '192.168.43.245', '192.168.10.5','192.168.0.102', '192.168.0.112','192.168.193.98' ,'192.168.0.109','192.168.0.110','192.168.95.98','food-vault-final-project.herokuapp.com']
-=======
-ALLOWED_HOSTS = ['192.168.10.6', '192.168.0.118',
-                 '192.168.230.107', '192.168.43.245', '192.168.0.102', '192.168.0.112', 'food-vault-final-project.herokuapp.com', 'food-vault-sp18-bcs.herokuapp.com']
->>>>>>> c4e6b34423cc9a982431ff1c22ae523b9cdc320b
 
 
 # Application definition
